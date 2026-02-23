@@ -1,0 +1,252 @@
+{
+  "version": 3,
+  "ui": {
+    "calendarShelf": null
+  },
+  "pendingMigrations": [
+    {
+      "type": "v1-v2",
+      "shelfDecided": false,
+      "frontmatterDecided": false,
+      "journals": [
+        {
+          "id": "Personal",
+          "type": "calendar",
+          "name": "Personal",
+          "rootFolder": "Journal",
+          "openOnStartup": false,
+          "startupSection": "day",
+          "day": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "_Day Notes",
+            "template": "_NoteAssets/Template/OKR/Daily.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "week": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "_Weekly Notes",
+            "template": "_NoteAssets/Template/OKR/Weekly Review.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "month": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "_Monthly Notes",
+            "template": "_NoteAssets/Template/OKR/Monthly Review.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "quarter": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "_Quarterly Notes",
+            "template": "_NoteAssets/Template/OKR/Quarterly Note Template.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          },
+          "year": {
+            "enabled": true,
+            "openMode": "active",
+            "nameTemplate": "",
+            "dateFormat": "",
+            "folder": "_Yearly Notes",
+            "template": "_NoteAssets/Template/OKR/Yearly OKRs.md",
+            "ribbon": {
+              "show": false,
+              "icon": "",
+              "tooltip": ""
+            },
+            "createOnStartup": false
+          }
+        }
+      ]
+    }
+  ],
+  "dismissedNotifications": [],
+  "useShelves": false,
+  "showReloadHint": false,
+  "openOnStartup": "",
+  "journals": {},
+  "shelves": {},
+  "commands": [
+    {
+      "name": "Open today's note",
+      "writeType": "day",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open weekly note",
+      "writeType": "week",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open monthly note",
+      "writeType": "month",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open quarterly note",
+      "writeType": "quarter",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open yearly note",
+      "writeType": "year",
+      "type": "same",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open tomorrow's note",
+      "writeType": "day",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next week note",
+      "writeType": "week",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next month note",
+      "writeType": "month",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next quarter note",
+      "writeType": "quarter",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open next year note",
+      "writeType": "year",
+      "type": "next",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open yesterday's note",
+      "writeType": "day",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last week note",
+      "writeType": "week",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last month note",
+      "writeType": "month",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last quarter note",
+      "writeType": "quarter",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    },
+    {
+      "name": "Open last year note",
+      "writeType": "year",
+      "type": "previous",
+      "openMode": "tab",
+      "showInRibbon": false,
+      "icon": ""
+    }
+  ],
+  "calendar": {
+    "dow": -1,
+    "doy": 1,
+    "global": false
+  },
+  "calendarView": {
+    "display": "month",
+    "leaf": "right",
+    "weeks": "left",
+    "todayMode": "navigate",
+    "pickMode": "create",
+    "todayStyle": {
+      "color": {
+        "type": "theme",
+        "name": "text-accent"
+      },
+      "background": {
+        "type": "transparent"
+      }
+    },
+    "activeStyle": {
+      "color": {
+        "type": "theme",
+        "name": "text-on-accent"
+      },
+      "background": {
+        "type": "theme",
+        "name": "interactive-accent"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "MM-DD-YYYY",
+    "folder": "_Day Notes",
+    "template": "_NoteAssets/Template/OKR/Daily.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "_NoteAssets/Template/OKR/Weekly Review.md",
+    "folder": "_Weekly Notes",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "MM-YYYY",
+    "template": "_NoteAssets/Template/OKR/Monthly Review.md",
+    "folder": "_Monthly Notes",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "_NoteAssets/Template/OKR/Yearly OKRs.md",
+    "folder": "",
+    "enabled": true
+  }
+}

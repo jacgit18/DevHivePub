@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Kettle-bell and Dumbbell",
+      "path": "Workout/Kettle-bell and Dumbbell.md"
+    },
+    {
+      "type": "file",
+      "title": "Regimen",
+      "path": "Workout/Regimen.md"
+    }
+  ]
+}

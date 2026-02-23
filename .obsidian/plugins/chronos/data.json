@@ -1,0 +1,11 @@
+{
+  "selectedLocale": "en",
+  "align": "left",
+  "clickToUse": false,
+  "roundRanges": false,
+  "useUtc": true,
+  "useAI": true,
+  "showChangelogOnUpdate": true,
+  "enableCaching": false,
+  "lastSeenVersion": "3.3.0"
+}

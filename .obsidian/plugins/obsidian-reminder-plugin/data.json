@@ -1,0 +1,51 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Kanban/Daily Priority High.md": [
+      {
+        "title": "redo autopay for tayoot Verizon before 17th of each month",
+        "time": "2026-01-31",
+        "rowNumber": 128
+      }
+    ],
+    "Kanban/Daily Priority Low.md": [
+      {
+        "title": "Look at this [[Codebase Interview Question]]",
+        "time": "2026-02-05",
+        "rowNumber": 64
+      }
+    ],
+    "Kanban/Habits.md": [
+      {
+        "title": "Supposed to get a router every 2 years but 5 years at the max",
+        "time": "2027-09-01",
+        "rowNumber": 92
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "reminderTimeStep": 15,
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": true,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "yearMonthDisplayFormat": "YYYY, MMMM",
+    "monthDayDisplayFormat": "MM/DD",
+    "shortDateWithWeekdayDisplayFormat": "M/DD (ddd)",
+    "timeDisplayFormat": "HH:mm",
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5,
+    "weekStart": "0"
+  }
+}

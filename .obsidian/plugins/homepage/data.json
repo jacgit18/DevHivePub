@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "value": "Home Dashboard",
+      "kind": "File",
+      "openOnStartup": false,
+      "openMode": "Keep open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Reading view",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": true,
+      "autoCreate": true,
+      "autoScroll": false,
+      "pin": false,
+      "commands": [],
+      "alwaysApply": false,
+      "hideReleaseNotes": false,
+      "hasRibbonIcon": true
+    }
+  },
+  "separateMobile": false
+}

@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"36aa8d0ae4ba3c83","type":"group","x":-500,"y":620,"width":1216,"height":400,"label":"Application Layer is Decoupled into Query & command"},
+		{"type":"file","file":"Architecture/App Layers/User.md","id":"bd2319cd61cd2488","x":-200,"y":-75,"width":400,"height":151},
+		{"id":"fec86ccf81614402","type":"file","file":"Architecture/App Layers/Presentation.md","x":-374,"y":160,"width":749,"height":295},
+		{"id":"1b222ce5807f6d1b","type":"text","text":"# Data Flow","x":591,"y":-49,"width":250,"height":125,"color":"2"},
+		{"id":"18e7df9d3827c332","type":"file","file":"Architecture/App Layers/Domain stuff.md","x":180,"y":1100,"width":360,"height":420},
+		{"id":"c330140d62001286","type":"text","text":"# Data Access","x":-500,"y":1620,"width":330,"height":60},
+		{"id":"dabf86722d8b7468","type":"text","text":"# Persistence","x":180,"y":1620,"width":250,"height":60},
+		{"id":"71be98c19317f32c","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\"> Options </h4>\n</center>\n\n","x":-880,"y":1880,"width":1800,"height":120},
+		{"id":"e32a17e19d6b607e","type":"text","text":"# Database\n\n### Command use domain & queries use database","x":-880,"y":2320,"width":380,"height":200},
+		{"id":"974d486b074ccaab","type":"text","text":"## Read Database\n\n### Queries Read","x":-140,"y":2320,"width":250,"height":240},
+		{"id":"61aaee0de644fb56","type":"text","text":"## Write Database\n\n### Commands write","x":180,"y":2320,"width":250,"height":240},
+		{"id":"728046a98d3fdfb5","type":"text","text":"## Read Database","x":540,"y":2320,"width":250,"height":120},
+		{"id":"1d2d687c399ad26b","type":"text","text":"## Event Store","x":860,"y":2320,"width":250,"height":120},
+		{"id":"50f1407023f83828","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px blue; -webkit-text-fill-color: transparent;\">Event Sourcing </h4>\n</center>\n\n","x":560,"y":2560,"width":460,"height":220,"color":"5"},
+		{"id":"5009100bd524e6cc","type":"text","text":"Store events\n\nReplay events\n\nmodify entity\n\nStore new event \n\nUpdate read database","x":1160,"y":2560,"width":360,"height":320},
+		{"id":"aecb2c013244fa48","type":"text","text":"## My understanding of execute would be create update and delete to the database  \n  \n## Commands execute data in the domain model, mutate state, raise events, and write out to database","x":-1320,"y":2620,"width":820,"height":380},
+		{"id":"253718660b50394a","type":"text","text":"# Query\n\n### Answers questions and should not modify state but Returns value like return last search","x":-480,"y":680,"width":588,"height":240},
+		{"id":"5c64f35bd02e5467","type":"text","text":"# Commands\n\n### Does something and should modify state but doesn't return value so **CUD**","x":140,"y":680,"width":525,"height":240}
+	],
+	"edges":[
+		{"id":"9ab856ca9d6efa51","fromNode":"253718660b50394a","fromSide":"top","toNode":"fec86ccf81614402","toSide":"bottom","color":"2"},
+		{"id":"0a8d33b88c680514","fromNode":"bd2319cd61cd2488","fromSide":"left","toNode":"fec86ccf81614402","toSide":"left","color":"2"},
+		{"id":"a18c64017a5c5fe0","fromNode":"fec86ccf81614402","fromSide":"right","toNode":"bd2319cd61cd2488","toSide":"right","color":"2"},
+		{"id":"910289d8be73b645","fromNode":"c330140d62001286","fromSide":"top","toNode":"253718660b50394a","toSide":"bottom","color":"2"},
+		{"id":"abefbdefbaf114fe","fromNode":"fec86ccf81614402","fromSide":"right","toNode":"5c64f35bd02e5467","toSide":"top","color":"2"},
+		{"id":"d876585c0b6d261f","fromNode":"5c64f35bd02e5467","fromSide":"bottom","toNode":"18e7df9d3827c332","toSide":"top","color":"2"},
+		{"id":"aa7997bc3512030c","fromNode":"18e7df9d3827c332","fromSide":"bottom","toNode":"dabf86722d8b7468","toSide":"top","color":"2"},
+		{"id":"5ec69e58f1fed31f","fromNode":"dabf86722d8b7468","fromSide":"left","toNode":"e32a17e19d6b607e","toSide":"right","color":"1"},
+		{"id":"b33df786575025c1","fromNode":"e32a17e19d6b607e","fromSide":"left","toNode":"c330140d62001286","toSide":"left","color":"1"},
+		{"id":"b15a837feb3c76af","fromNode":"61aaee0de644fb56","fromSide":"left","toNode":"974d486b074ccaab","toSide":"right","color":"2"},
+		{"id":"a75241598973bbda","fromNode":"974d486b074ccaab","fromSide":"top","toNode":"c330140d62001286","toSide":"bottom","color":"6"},
+		{"id":"cf6608f208defa24","fromNode":"dabf86722d8b7468","fromSide":"bottom","toNode":"61aaee0de644fb56","toSide":"top","color":"6"},
+		{"id":"61869311de6e60dc","fromNode":"1d2d687c399ad26b","fromSide":"left","toNode":"728046a98d3fdfb5","toSide":"right","color":"2"},
+		{"id":"4b27e987e7d437b6","fromNode":"728046a98d3fdfb5","fromSide":"top","toNode":"c330140d62001286","toSide":"right","color":"5"},
+		{"id":"da6bf248dab682ce","fromNode":"dabf86722d8b7468","fromSide":"right","toNode":"1d2d687c399ad26b","toSide":"top","color":"5"}
+	]
+}

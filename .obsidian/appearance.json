@@ -1,0 +1,20 @@
+{
+  "cssTheme": "Royal Velvet",
+  "accentColor": "#e8ab02",
+  "enabledCssSnippets": [
+    "customCallouts",
+    "Iterative Rainbow Folder Icons",
+    "dashboard-ReadLineLength",
+    "Heatmap Calendar",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "minimal-cards_anu",
+    "shorter-links",
+    "dashboard"
+  ],
+  "showViewHeader": true,
+  "showRibbon": true,
+  "interfaceFontFamily": "Source Code Pro",
+  "baseFontSize": 14
+}

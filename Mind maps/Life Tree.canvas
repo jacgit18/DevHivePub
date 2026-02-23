@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"b6468f055809c791","type":"text","text":"My Story","x":-120,"y":-380,"width":160,"height":60},
+		{"id":"838e4f04ffc9a4c5","type":"text","text":"Follower","x":-680,"y":-380,"width":250,"height":60},
+		{"id":"7fb86d434e656bdf","type":"text","text":"Outsider","x":-640,"y":-140,"width":250,"height":60},
+		{"id":"277520e3276ef840","type":"text","text":"People","x":100,"y":-260,"width":250,"height":60},
+		{"id":"7b39ecc3bd9bd0d9","type":"text","text":"Victimizer","x":-120,"y":20,"width":250,"height":60},
+		{"id":"0a3f7157c7e1956d","type":"text","text":"victim","x":300,"y":30,"width":250,"height":50},
+		{"id":"cc07be510bdb7965","type":"text","text":"peers","x":-5,"y":222,"width":250,"height":60},
+		{"id":"21a1867f0f13bc8e","type":"text","text":"Teacher","x":281,"y":226,"width":250,"height":60},
+		{"id":"926738cffa0ac3ff","type":"text","text":"Sibling","x":-85,"y":320,"width":250,"height":60},
+		{"id":"0c48b3dbc4db146d","type":"text","text":"Cousin","x":215,"y":323,"width":250,"height":60},
+		{"id":"338fa423a182e8a3","type":"text","text":"Dad","x":-81,"y":400,"width":250,"height":60},
+		{"id":"e0e329336fb0cd59","type":"text","text":"mom","x":225,"y":430,"width":250,"height":60},
+		{"id":"e1b528d67512116f","type":"text","text":"Conflict","x":-452,"y":-27,"width":250,"height":60},
+		{"id":"75edf04bb7cf6a60","type":"text","text":"# Beginning","x":-668,"y":-717,"width":250,"height":60},
+		{"id":"fba9d0135fd2ed1d","type":"text","text":"# Middle","x":-303,"y":-707,"width":250,"height":60},
+		{"id":"8e9d99d3b8afe9f2","type":"text","text":"# End","x":4,"y":-700,"width":250,"height":60},
+		{"id":"11365fa3985c2f26","x":-687,"y":-891,"width":250,"height":60,"type":"text","text":"# Start"},
+		{"id":"433b288b7e4ef15c","x":-263,"y":-891,"width":250,"height":59,"type":"text","text":"# Stop"},
+		{"id":"ef2f790857308e95","x":66,"y":-913,"width":250,"height":60,"type":"text","text":"# Wait"},
+		{"id":"6ed1f759162d4f3e","type":"text","text":"High Stakes","x":225,"y":-540,"width":250,"height":60},
+		{"id":"eb24ff0eba0963f7","type":"text","text":"Low Stakes","x":-81,"y":-540,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"53501770133ebd1b","fromNode":"277520e3276ef840","fromSide":"bottom","toNode":"0a3f7157c7e1956d","toSide":"top"},
+		{"id":"2468731ebf2c3cf9","fromNode":"b6468f055809c791","fromSide":"bottom","toNode":"277520e3276ef840","toSide":"top"},
+		{"id":"51fe96b3ae212f6b","fromNode":"b6468f055809c791","fromSide":"bottom","toNode":"838e4f04ffc9a4c5","toSide":"top"},
+		{"id":"79d4190131480002","fromNode":"b6468f055809c791","fromSide":"bottom","toNode":"7fb86d434e656bdf","toSide":"top"},
+		{"id":"bb1cde3570a0989d","fromNode":"277520e3276ef840","fromSide":"bottom","toNode":"7b39ecc3bd9bd0d9","toSide":"top"}
+	]
+}

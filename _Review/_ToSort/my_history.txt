@@ -1,0 +1,221 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo dpkg --configure -a
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo apt update
+    7  sudo apt install git -y
+    8  git config --global user.name "jacgit18"
+    9  git config --global user.email "joshuaxcarpentier@gmail.com"
+   10  git config --list
+   11  git config --global init.defaultBranch main
+   12  git config --global core.editor "code --wait"
+   13  git config --global credential.helper store
+   14  ssh-keygen -t ed25519 -C "joshuaxcarpentier@gmail.com"
+   15  eval "$(ssh-agent -s)"
+   16  ssh-add ~/.ssh/id_ed25519
+   17  cat ~/.ssh/id_ed25519.pub
+   18  ssh -T git@github.com
+   19  sudo apt update
+   20  sudo apt install syncthing
+   21  syncthing
+   22  echo -e "\uf120  \uf121  \uf126"
+   23  clear
+   24  sudo apt update
+   25  sudo nano /etc/apt/sources.list.d/antigravity*.list
+   26  sudo apt update
+   27  sudo apt install fonts-nerd-fonts
+   28  mkdir -p ~/.local/share/fonts
+   29  cd ~/.local/share/fonts
+   30  wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+   31  ls
+   32  unzip FiraCode.zip -d FiraCode
+   33  rm FiraCode.zip
+   34  fc-cache -fv
+   35  fc-list | grep -i firacode
+   36  echo -e "\uf120  \uf121  \uf126"
+   37  cd
+   38  lsblk -f
+   39  sudo mkdir -p /mnt/backup
+   40  sudo umount /run/timeshift/backup
+   41  df -h | grep sda1
+   42  sudo mount /dev/sda1 /mnt/backup
+   43  df -h | grep backup
+   44  sudo chown -R $USER:$USER /mnt/backup
+   45  sudo nano /etc/fstab
+   46  sudo mount -a
+   47  ls -l /mnt/backup
+   48  df -h | grep backup
+   49  sudo chown -R $USER:$USER /mnt/backup
+   50  sudo add-apt-repository ppa:neovim-ppa/stable
+   51  sudo apt update
+   52  sudo apt install neovim -y
+   53  nvim --version
+   54  sudo apt install -y   git curl unzip ripgrep fd-find   build-essential python3-venv python3-pip
+   55  sudo apt install -y nodejs npm
+   56  mkdir -p ~/.config/nvim
+   57  nano ~/.config/nvim/init.lua
+   58  nvim
+   59  sudo apt remove neovim -y
+   60  sudo apt autoremove -y
+   61  sudo add-apt-repository ppa:neovim-ppa/stable
+   62  sudo apt update
+   63  sudo apt install neovim -y
+   64  nvim --version
+   65  sudo apt remove neovim -y
+   66  sudo apt autoremove -y
+   67  cd ~/Downloads
+   68  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+   69  chmod +x nvim.appimage
+   70  ./nvim.appimage --version
+   71  ls
+   72  rm -f ~/Downloads/nvim.appimage
+   73  wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+   74  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+   75  file nvim-linux-x86_64.appimage
+   76  chmod +x nvim-linux-x86_64.appimage
+   77  ./nvim-linux-x86_64.appimage --version
+   78  sudo mv nvim-linux-x86_64.appimage /usr/local/bin/nvim
+   79  which nvim
+   80  nvim --version
+   81  which nvim
+   82  rm -rf ~/.local/share/nvim
+   83  rm -rf ~/.cache/nvim
+   84  nvim
+   85  ls ~/Downloads | grep nvim
+   86  ls
+   87  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+   88  ls
+   89  sudo mv ~/Downloads/nvim-linux-x86_64.appimage /usr/local/bin/nvim
+   90  ls
+   91  lssudo chmod +x /usr/local/bin/nvim
+   92  sudo chmod +x /usr/local/bin/nvim
+   93  nvim --version
+   94  ls -lh ~/Downloads
+   95  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+   96  chmod +x nvim-linux-x86_64.appimage
+   97  ./nvim-linux-x86_64.appimage --versionc
+   98  sudo mv ~/Downloads/nvim-linux-x86_64.appimage /usr/local/bin/nvim
+   99  sudo chmod +x /usr/local/bin/nvim
+  100  ls -lh /usr/local/bin/nvim
+  101  echo $PATH
+  102  command -v nvim
+  103  nvim --version
+  104  nvim
+  105  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+  106  chmod +x nvim-linux-x86_64.appimage
+  107  nvim
+  108  ls
+  109  chmod +x nvim-linux-x86_64.appimage
+  110  ./nvim-linux-x86_64.appimage --version
+  111  nvim
+  112  sudo chmod +x /usr/local/bin/nvim
+  113  nvim
+  114  sudo add-apt-repository ppa:neovim-ppa/stable
+  115  sudo apt update
+  116  sudo apt install neovim -y
+  117  nvim
+  118  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+  119  chmod +x nvim.appimage
+  120  ls
+  121  chmod +x nvim-linux-x86_64.appimage
+  122  FiraCode Nerd Font
+  123  nvim --version
+  124  sudo apt update
+  125  nano ~/.config/nvim/init.lua
+  126  sudo apt install neovim -y
+  127  sudo apt upgrade neovim
+  128  wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+  129  systemctl status cron
+  130  crontab -e
+  131  ls
+  132  cd Script/
+  133  ls
+  134  pwd
+  135  chmod +x /home/jac/Script/sync.sh
+  136  ls
+  137  ./sync.sh 
+  138  sudo nano sync.sh 
+  139  ./sync.sh 
+  140  sudo apt install -y git libnotify-bin pulseaudio
+  141  sudo apt remove pop-pipewire pulseaudio
+  142  ./sync.sh 
+  143  code
+  144  ./sync.sh 
+  145  git push --set-upstream origin master
+  146  ./sync.sh 
+  147  ./sync.sh /home/jac/PersonalBrain
+  148  ./sync.sh /home/jac/DevHiveMind
+  149  cd
+  150  ls
+  151  cd DevHiveMind/
+  152  git push --set-upstream origin master
+  153  git push --set-upstream origin main
+  154  git status
+  155  git push --set-upstream origin Jacgit18personalContribution
+  156  cd ..
+  157  cd PersonalBrain/
+  158  git status
+  159  git push --set-upstream origin main
+  160  sudo chown -R $USER:$USER /mnt/backup
+  161  rm -rf ~/.local/share/nvim
+  162  rm -rf ~/.cache/nvim
+  163  nvim
+  164  rm -rf ~/.local/share/nvim
+  165  rm -rf ~/.cache/nvim
+  166  nvim
+  167  sudo apt update
+  168  sudo apt install tree-sitter-cli
+  169  sudo npm install -g tree-sitter-cli
+  170  node --version
+  171  sudo apt install tree-sitter-cli
+  172  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+  173  sudo apt install -y nodejs
+  174  sudo dpkg --configure -a
+  175  sudo apt --fix-broken install
+  176  sudo apt clean
+  177  sudo rm -rf /var/cache/apt/archives/*
+  178  sudo apt update
+  179  sudo apt remove --purge nodejs
+  180  sudo apt autoremove
+  181  sudo apt install tree-sitter-cli
+  182  tree-sitter --version
+  183  sudo apt install cargo
+  184  cargo install tree-sitter-cli
+  185  export PATH="$HOME/.cargo/bin:$PATH"
+  186  tree-sitter --version
+  187  sudo apt update
+  188  sudo apt install -y clang libclang-dev build-essential pkg-config
+  189  export LIBCLANG_PATH=/usr/lib/llvm-15/lib
+  190  find /usr/lib -name "libclang.so*"
+  191  cargo install tree-sitter-cli
+  192  sudo snap install tree-sitter-cli --classic
+  193  sudo apt update
+  194  sudo apt install -y clang libclang-dev build-essential pkg-config
+  195  sudo apt install tree-sitter-cli
+  196  sudo apt update
+  197  sudo apt install snapd
+  198  sudo ln -s /var/lib/snapd/snap /snap
+  199  snap version
+  200  sudo snap install tree-sitter-cli --classic
+  201  nvim
+  202  gunzip tree-sitter.gz
+  203  curl -L https://github.com/tree-sitter/tree-sitter-cli/releases/latest/download/tree-sitter-linux-x64.gz -o tree-sitter.gz
+  204  gunzip tree-sitter.gz
+  205  curl -L -o tree-sitter https://github.com/tree-sitter/tree-sitter-cli/releases/latest/download/tree-sitter-linux-x64
+  206  chmod +x tree-sitter
+  207  sudo mv tree-sitter /usr/local/bin/
+  208  tree-sitter --version
+  209  docker pull molly/privateimage
+  210  history
+  211  history > my_history.txt
+
+
+grep CRON /var/log/syslog
+
+
+*/15 * * * * flock -n /tmp/sync-dev.lock /home/jac/Scripts/sync.sh /home/jac/DevHiveMind >> /home/jac/cron-sync-devhivemind.log 2>&1
+
+*/20 * * * * flock -n /tmp/sync-personal.lock /home/jac/Scripts/sync.sh /home/jac/PersonalBrain >> /home/jac/cron-sync-personalbrain.log 2>&1
+
+  

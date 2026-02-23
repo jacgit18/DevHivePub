@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"20c34c3088dc97c9","type":"file","file":"Mind Maps/_Infographic/Clean arch.jpg","x":-310,"y":340,"width":633,"height":465},
+		{"id":"4d470de43f43301b","type":"file","file":"Mind Maps/_Infographic/domain-driven-design-clean-architecture.png","x":480,"y":108,"width":368,"height":368},
+		{"id":"2ae56e0ccd2ed202","type":"file","file":"Mind Maps/_Infographic/InDepth Domain Flow.png","x":-612,"y":-500,"width":1276,"height":580},
+		{"id":"97637f721ecc8922","type":"file","file":"Mind Maps/_Infographic/mvvc.png","x":-1120,"y":500,"width":775,"height":407},
+		{"id":"c62c88e8d8434a02","type":"text","text":"# Entity, Value Object, Domain Event, and Aggregate are considered the domain model    ","x":-310,"y":141,"width":403,"height":151},
+		{"id":"363e16e7333b2356","type":"file","file":"Mind Maps/_Infographic/Domain Layers.png","x":264,"y":-920,"width":400,"height":400},
+		{"id":"ccc74bad11ad07a3","type":"text","text":"# App service is basically the view model in MVVC","x":-314,"y":840,"width":340,"height":196},
+		{"id":"07eb76e7842f03d9","type":"file","file":"Mind Maps/_Infographic/Domain Layer Alt.png","x":-1000,"y":102,"width":621,"height":380},
+		{"id":"e77d4074fc1a6c34","type":"file","file":"Mind Maps/_Infographic/Services in different Layers.jpg","x":-1272,"y":-260,"width":545,"height":312},
+		{"id":"51cbb8fa74ebf84d","type":"file","file":"_NoteAssets/Images To Move/Infographics/Domain Flow.jpeg","x":-1540,"y":102,"width":488,"height":370},
+		{"id":"c85337c0f02df14c","type":"text","text":"Certainly! Here are some code snippets in TypeScript to illustrate aspects of a domain model, including entities, value objects, aggregates, and factories:  \n  \n**Entity:**  \n```typescript  \nclass Customer {  \nconstructor(public id: string, public name: string) {}  \n}  \n  \n// Usage  \nconst customer = new Customer('123', 'John Doe');  \n```  \n  \n**Value Object:**  \n```typescript  \nclass Money {  \nconstructor(public amount: number, public currency: string) {}  \n  \n// Additional methods and business logic can be added  \n}  \n  \n// Usage  \nconst price = new Money(50, 'USD');  \n```  \n  \n**Aggregate:**  \n```typescript  \nclass OrderLine {  \nconstructor(public productId: string, public quantity: number) {}  \n}  \n  \nclass Order {  \nprivate orderLines: OrderLine[] = [];  \n  \nconstructor(public orderId: string, public customerId: string) {}  \n  \naddOrderLine(productId: string, quantity: number) {  \nconst orderLine = new OrderLine(productId, quantity);  \nthis.orderLines.push(orderLine);  \n// Additional business logic can be added  \n}  \n}  \n  \n// Usage  \nconst order = new Order('789', '123');  \norder.addOrderLine('ABC', 2);  \n```  \n  \n**Factory:**  \n```typescript  \nclass OrderFactory {  \nstatic createOrder(orderId: string, customerId: string): Order {  \n// Additional logic for creating a valid order  \nreturn new Order(orderId, customerId);  \n}  \n}  \n  \n// Usage  \nconst newOrder = OrderFactory.createOrder('789', '456');  \n```  \n  \nThese snippets demonstrate basic structures for entities, value objects, aggregates, and a simple factory in TypeScript. You can expand on these concepts based on the specific requirements of your domain model and business logic.","x":-1883,"y":704,"width":587,"height":1214},
+		{"id":"2f637cc35cedd136","type":"file","file":"Mind Maps/_Infographic/Domain Layer Flow.png","x":-686,"y":-980,"width":779,"height":398}
+	],
+	"edges":[]
+}

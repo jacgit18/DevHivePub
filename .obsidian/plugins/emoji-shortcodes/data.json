@@ -1,0 +1,19 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":100:",
+    ":boxing_glove:",
+    ":laughing:",
+    ":video_game:",
+    ":bulb:",
+    ":memo:",
+    ":warning:",
+    ":joy:",
+    ":arrow_forward:",
+    ":eyes:",
+    ":computer:"
+  ]
+}

@@ -1,0 +1,24 @@
+#.obsidian/
+.trash/
+.obsidian/plugins/obsidian-activity-history/
+.obsidian/workspace.*
+.obsidian/workspace-*
+.obsidian/community-plugins.*
+
+
+.obsidian/graph.json
+.obsidian/*sync-conflict*
+.stversions
+
+
+# Ignore Smart Connections folder
+.smart-connections
+
+
+.obsidian/plugins/edge-tts/temp
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

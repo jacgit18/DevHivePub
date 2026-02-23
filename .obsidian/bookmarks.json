@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "type": "url",
+      "ctime": 1744429494110,
+      "url": "https://chatgpt.com/",
+      "title": "ChatGPT"
+    },
+    {
+      "type": "url",
+      "ctime": 1766383504510,
+      "url": "https://keep.google.com/u/0/?pli=1#home",
+      "title": "Google Keep"
+    },
+    {
+      "type": "url",
+      "ctime": 1767375634777,
+      "url": "http://127.0.0.1:8384/#",
+      "title": "pop-os | Syncthing"
+    },
+    {
+      "type": "url",
+      "ctime": 1767374518226,
+      "url": "https://www.youtube.com/",
+      "title": "YouTube"
+    },
+    {
+      "type": "file",
+      "ctime": 1769027460752,
+      "path": "Finance Stuff/Credit Card.md"
+    },
+    {
+      "type": "file",
+      "path": "Workout/Kettle-bell and Dumbbell.md",
+      "ctime": 1683067177355
+    },
+    {
+      "type": "file",
+      "path": "Workout/Regimen.md",
+      "ctime": 1683067177355
+    },
+    {
+      "type": "file",
+      "ctime": 1683462379990,
+      "path": "_Files/Mom Docs/Mom Retirement.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1684708791188,
+      "path": "_Template/callouts.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769027429329,
+      "path": "Health/_Fitness/Personal Hands.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1768937059145,
+      "path": "Health/_Fitness/Personal Optimized Session.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769236467292,
+      "path": "Kanban/Habits.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769240981912,
+      "path": "Career/Interview/Networking Script.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769243553487,
+      "path": "Clipboard/Learning Plans to Clean/Roadmap.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769243565816,
+      "path": "Career/Companies Worked At/Capital One/Capital One Stats.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1769243593274,
+      "path": "Clipboard/Learning Plans to Clean/Dev Roadmaps By Priority.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1770137738421,
+      "path": "Career/Interview/Interview Script.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1770290267901,
+      "path": "Career/Interview/Offense(Q&A).md"
+    },
+    {
+      "type": "file",
+      "ctime": 1770290274501,
+      "path": "Career/Interview/Defense(A&Q).md"
+    }
+  ]
+}

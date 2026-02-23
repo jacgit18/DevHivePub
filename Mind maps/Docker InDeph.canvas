@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"type":"group","id":"7162f07e504bae30","x":-1840,"y":-4640,"width":6800,"height":5600,"label":"Untitled group","background":"_Images/download.jpeg"},
+		{"type":"file","file":"Devops/_Infographic/Just container namespace.jpg","id":"b52223772390de71","x":206,"y":-1600,"width":1300,"height":752},
+		{"type":"text","text":"## You can almost think of  containers or images as a micro version of a operating system in this example Linux with additional images","id":"65ee6bdb09afbf4e","x":206,"y":-1417,"width":394,"height":193},
+		{"type":"file","file":"Devops/_Infographic/Docker.png","id":"461a1b35d92eaf8e","x":1506,"y":-520,"width":983,"height":737},
+		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\"> Image </h4>\n</center>\n","id":"6890356529f4b793","x":1841,"y":-640,"width":313,"height":120,"color":"#00e7eb"},
+		{"type":"file","file":"Mind Maps/_Infographic/DB Alt.png","id":"b2f9f1141538274d","x":1591,"y":-1730,"width":67,"height":67},
+		{"type":"text","text":"This  volume is external from the container and has to be added if you want persisted data","id":"b8fc74a06469a588","x":1673,"y":-1747,"width":313,"height":102},
+		{"type":"text","text":"###### Persistent Volume","id":"38e395a65f976c2b","x":1591,"y":-1825,"width":163,"height":60},
+		{"type":"file","file":"Mind Maps/_Infographic/DB.png","id":"ca1d5df749f78dfa","x":2033,"y":-1730,"width":67,"height":67},
+		{"type":"text","text":"Each container has a non persisted volume by default","id":"1f8fade2acc60364","x":2123,"y":-1723,"width":290,"height":60},
+		{"type":"text","text":"###### Non-persistent Volume","id":"1c3528efb4d0fac4","x":2033,"y":-1825,"width":180,"height":60},
+		{"type":"file","file":"Devops/_Infographic/image Contents.jpg","id":"ca1980f2ec016070","x":1591,"y":-1623,"width":1324,"height":775},
+		{"type":"text","text":"### docker Volume create","id":"6adb391b49a2ac2e","x":1953,"y":-1499,"width":295,"height":59},
+		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 20px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">  R/W layer </h4>\n</center>\n","id":"84fb0ea68cbe7a83","x":2360,"y":-1440,"width":173,"height":67,"color":"#00e7eb"},
+		{"type":"file","file":"Mind Maps/_Infographic/DB.png","id":"f4615a94a29e657d","x":2413,"y":-1166,"width":67,"height":67},
+		{"type":"file","file":"Devops/_Infographic/Platforms.jpg","id":"6b21dc93c8dc4bb2","x":1102,"y":-3080,"width":1833,"height":975},
+		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 20px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">  R/W layer </h4>\n</center>\n","id":"f9b610c89e1624af","x":2360,"y":-1000,"width":173,"height":67,"color":"#00e7eb"},
+		{"type":"file","file":"Mind Maps/_Infographic/DB.png","id":"45ce130f23c32c9a","x":2413,"y":-1617,"width":67,"height":67},
+		{"type":"file","file":"Mind Maps/_Infographic/DB Alt.png","id":"bbf3725ed16e3d21","x":2573,"y":-1550,"width":67,"height":67},
+		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 20px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">  R/W layer </h4>\n</center>\n","id":"b83ffd5994fac760","x":2640,"y":-1200,"width":173,"height":67,"color":"#00e7eb"},
+		{"type":"file","file":"Mind Maps/_Infographic/DB.png","id":"3a69c9f498e64fa9","x":2693,"y":-1440,"width":67,"height":67},
+		{"type":"file","file":"Devops/_Infographic/Kernal OS.jpg","id":"66a2dab6a344362e","x":-1541,"y":-1600,"width":1615,"height":752},
+		{"type":"file","file":"Devops/_Infographic/Control Groups.jpg","id":"60286d0f5b166efd","x":-1147,"y":-2864,"width":1653,"height":920},
+		{"type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Docker Indeph Mindmap </h4>\n</center>\n\n","id":"a1d096fb7012e7ce","x":585,"y":-4000,"width":2079,"height":320,"color":"4"},
+		{"type":"text","text":"# Control Group","id":"4f7d13e72d21b55b","x":-320,"y":-1680,"width":250,"height":80},
+		{"type":"text","text":"## Each namespace allocates resource like file system, process tree, user and  from the operating system in this case Linux to build containers which are instance of a base image.\n ","id":"352e7ae888c777a5","x":907,"y":-1760,"width":599,"height":176,"color":"5"},
+		{"type":"file","file":"Devops/_Infographic/DockerFlow.jpg","id":"4f5f90597e0b5e8d","x":3440,"y":-2705,"width":1038,"height":975},
+		{"type":"file","file":"Devops/_Infographic/Indeph nameSpace.jpg","id":"cf0fcc47c09d0d3c","x":3160,"y":-1584,"width":1430,"height":736},
+		{"type":"text","text":"## If container is deleted the volume is preserved ","id":"fbe775e2ae9f35d2","x":2510,"y":-1735,"width":367,"height":112,"color":"5"}
+	],
+	"edges":[
+		{"id":"a10dd4e97ace5751","fromNode":"66a2dab6a344362e","fromSide":"bottom","toNode":"b52223772390de71","toSide":"bottom","label":"Isolation falls under namespaces"},
+		{"id":"aadcb5a4f8bb42ef","fromNode":"4f7d13e72d21b55b","fromSide":"top","toNode":"60286d0f5b166efd","toSide":"bottom"},
+		{"id":"6b5990cc7bdd66f7","fromNode":"ca1980f2ec016070","fromSide":"right","toNode":"cf0fcc47c09d0d3c","toSide":"left"},
+		{"id":"a0e56beb2e85441f","fromNode":"b52223772390de71","fromSide":"right","toNode":"ca1980f2ec016070","toSide":"left"},
+		{"id":"40b883ab6cb8c474","fromNode":"ca1980f2ec016070","fromSide":"left","toNode":"461a1b35d92eaf8e","toSide":"top"}
+	]
+}

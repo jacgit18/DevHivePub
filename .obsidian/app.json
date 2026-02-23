@@ -1,0 +1,24 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "_Files",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "trashOption": "system",
+  "useMarkdownLinks": false,
+  "showFrontmatter": true,
+  "showInlineTitle": false,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "vimMode": false,
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true
+}
